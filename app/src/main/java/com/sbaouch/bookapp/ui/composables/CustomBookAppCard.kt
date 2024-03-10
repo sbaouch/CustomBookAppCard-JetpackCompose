@@ -197,7 +197,6 @@ fun CustomBookAppCard(bookInfoCard: BookInfoCard, onClick: () -> Unit) {
                         NumberOfPagesRead(bookInfoCard.totalPages, bookInfoCard.readPages)
 
                     }
-
                 }
 
                 LinearProgressIndicator(
@@ -209,9 +208,7 @@ fun CustomBookAppCard(bookInfoCard: BookInfoCard, onClick: () -> Unit) {
                     trackColor = Color(0xFFE5E5E5)
                 )
             }
-
         }
-
     }
 }
 
